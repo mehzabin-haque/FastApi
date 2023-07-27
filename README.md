@@ -1,12 +1,12 @@
-**FastAPI Practice Code**
+### FastAPI Practice Code
 
 This repository contains a simple FastAPI practice code to help you understand how FastAPI works and its basic functionalities.
 
-**What is FastAPI?**
+## What is FastAPI?
 
 FastAPI is a modern, fast, web framework for building APIs with Python 3.7+ based on standard Python type hints. It is designed to be easy to use, high-performance, and efficient. FastAPI allows you to quickly develop APIs with automatic validation, serialization, and documentation generation.
 
-**How to Use this Code**
+## How to Use this Code
 
 1. Clone this repository to your local machine.
 2. Make sure you have Python 3.7+ installed on your system.
@@ -14,14 +14,14 @@ FastAPI is a modern, fast, web framework for building APIs with Python 3.7+ base
 4. Run the FastAPI application using `python app.py`.
 5. Visit `http://localhost:8000/docs` in your browser to access the automatic API documentation and interact with the endpoints.
 
-**Project Structure**
+## Project Structure
 
 The project is structured as follows:
 
 - `app.py`: This is the main FastAPI application file containing the API endpoints.
 - `requirements.txt`: Lists all the dependencies required for this project.
 
-**Endpoints**
+## Endpoints
 
 The FastAPI application provides the following endpoints:
 
@@ -31,11 +31,11 @@ The FastAPI application provides the following endpoints:
 4. `PUT /items/{item_id}`: Updates an existing item based on its ID with the provided data.
 5. `DELETE /items/{item_id}`: Deletes an item based on its ID.
 
-**Contributing**
+## Contributing
 
 If you find any issues or want to enhance the functionality, feel free to contribute by creating pull requests. Your contributions are welcome!
 
-**Resources**
+## Resources
 
 For more details on FastAPI, you can refer to the official documentation:
 - [FastAPI Official Documentation](https://fastapi.tiangolo.com/)
